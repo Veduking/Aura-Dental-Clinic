@@ -16,7 +16,7 @@ export const SITE = {
   tagline: "Creating Healthy & Beautiful Smiles",
   description:
     "Aura Dental Studio offers gentle, modern and personalized dental care in Mathikere, Bengaluru — from cleanings and whitening to root canal treatment, implants and smile design. Book your appointment online today.",
-  url: "https://www.auradentalstudio.example",
+  url: "https://veduking.github.io/Aura-Dental-Clinic",
   phoneDisplay: "+91 99013 34365",
   phoneHref: "+919901334365",
   whatsappHref: "919901334365",

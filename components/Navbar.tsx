@@ -40,7 +40,7 @@ export default function Navbar() {
         <a href="#home" aria-label={SITE.name} className="flex items-center gap-2 sm:gap-3 font-heading text-ink">
           <span className="relative h-12 w-12 sm:h-16 sm:w-16 shrink-0 overflow-hidden" aria-hidden="true">
             <Image
-              src="/images/aura-brand-logo-transparent.png"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/aura-brand-logo-transparent.png`}
               alt=""
               fill
               priority
