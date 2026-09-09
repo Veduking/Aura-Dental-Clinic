@@ -89,7 +89,7 @@ export const SERVICES = [
 ];
 
 export const WHY_US = [
-  { icon: "award", title: "Experienced Dentist", desc: "Over 4 years of hands-on clinical practice." },
+  { icon: "award", title: "Experienced Dentist", desc: "Over 9 years of hands-on clinical practice." },
   { icon: "cpu", title: "Modern Technology", desc: "Digital X-rays and intraoral cameras for precise diagnosis." },
   { icon: "shield", title: "Sterilized Equipment", desc: "Hospital-grade sterilization for every single visit." },
   { icon: "wallet", title: "Affordable Treatment", desc: "Transparent pricing with flexible payment options." },
@@ -123,7 +123,7 @@ export const TREATMENTS_FOR_FORM = [
 ];
 
 export const STATS = [
-  { label: "Years of Experience", value: 4 },
+  { label: "Years of Experience", value: 9 },
   { label: "Happy Patients", value: 50 },
-  { label: "Google Rating", value: 4.6 },
+  { label: "Google Rating", value: 5.0 },
 ];

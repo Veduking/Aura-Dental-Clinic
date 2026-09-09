@@ -65,7 +65,7 @@ export default function Hero() {
             />
           </div>
           <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-xl px-5 py-4 hidden sm:block">
-            <p className="text-2xl font-bold text-primary">4.6★</p>
+            <p className="text-2xl font-bold text-primary">5★</p>
             <p className="text-xs text-ink/60">from 35+ Google reviews</p>
           </div>
         </motion.div>
