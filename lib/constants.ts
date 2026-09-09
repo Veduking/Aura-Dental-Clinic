@@ -124,6 +124,6 @@ export const TREATMENTS_FOR_FORM = [
 
 export const STATS = [
   { label: "Years of Experience", value: 9 },
-  { label: "Happy Patients", value: 50 },
+  { label: "Happy Patients", value: 250 },
   { label: "Google Rating", value: 5.0 },
 ];
