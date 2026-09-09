@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-poppins: "Poppins", sans-serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+section[id] {
+  scroll-margin-top: 6rem;
+}
+
+body {
+  @apply text-ink font-body antialiased;
+  overflow-x: hidden;
+  background-color: #ECFDF5;
+  background-image: linear-gradient(rgba(236, 253, 245, 0.78), rgba(236, 253, 245, 0.78)), url("/images/tooth-pattern-blue.jpg");
+  background-size: auto, 300px 300px;
+}
+
+h1, h2, h3, h4 {
+  @apply font-heading;
+}
+
+/* Visible keyboard focus for accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid #0EA5E9;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.section-pad {
+  @apply px-4 sm:px-6 md:px-10 xl:px-16 2xl:px-24 py-14 sm:py-16 md:py-20 xl:py-28 2xl:py-32;
+}
+
+.container-xl {
+  @apply max-w-[1440px] mx-auto;
+}
+
+@media (hover: none) {
+  a, button, select, input, textarea {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.gradient-bg {
+  background: radial-gradient(circle at 15% 20%, rgba(14,165,233,0.10), transparent 40%),
+              radial-gradient(circle at 85% 0%, rgba(20,184,166,0.10), transparent 45%),
+              rgba(255,255,255,0.78);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
