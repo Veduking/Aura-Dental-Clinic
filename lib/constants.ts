@@ -1,14 +1,40 @@
 // All website photos live in public/images so they work without an external image host.
 // These files are the Aura Dental Studio photos supplied by the clinic.
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "/Aura-Dental-Clinic";
+
 export const IMAGES = {
-  hero: { src: "/images/aura-logo-main.jpeg", alt: "Illuminated Aura Dental Studio logo" },
-  welcomeArea: { src: "/images/aura-welcome-area.jpeg", alt: "Aura Dental Studio welcome area" },
-  doctor: { src: "/images/dr-gopika-viswanath.png", alt: "Dr. Gopika Viswanath at Aura Dental Studio" },
-  reception: { src: "/images/aura-main-entrance.png", alt: "Aura Dental Studio reception" },
-  exterior: { src: "/images/aura-clinic-exterior.png", alt: "Aura Dental Studio exterior" },
-  treatmentRoom: { src: "/images/aura-treatment-room-wide.jpeg", alt: "Aura Dental Studio treatment room" },
-  dentalChair: { src: "/images/aura-dental-chair.jpeg", alt: "Dental chair and equipment at Aura Dental Studio" },
-  clinic: { src: "/images/aura-treatment-room-2.png", alt: "Aura Dental Studio treatment room" },
+  hero: {
+    src: `${BASE_PATH}/images/aura-logo-main.jpeg`,
+    alt: "Illuminated Aura Dental Studio logo",
+  },
+  welcomeArea: {
+    src: `${BASE_PATH}/images/aura-welcome-area.jpeg`,
+    alt: "Aura Dental Studio welcome area",
+  },
+  doctor: {
+    src: `${BASE_PATH}/images/dr-gopika-viswanath.png`,
+    alt: "Dr. Gopika Viswanath at Aura Dental Studio",
+  },
+  reception: {
+    src: `${BASE_PATH}/images/aura-main-entrance.png`,
+    alt: "Aura Dental Studio reception",
+  },
+  exterior: {
+    src: `${BASE_PATH}/images/aura-clinic-exterior.png`,
+    alt: "Aura Dental Studio exterior",
+  },
+  treatmentRoom: {
+    src: `${BASE_PATH}/images/aura-treatment-room-wide.jpeg`,
+    alt: "Aura Dental Studio treatment room",
+  },
+  dentalChair: {
+    src: `${BASE_PATH}/images/aura-dental-chair.jpeg`,
+    alt: "Dental chair and equipment at Aura Dental Studio",
+  },
+  clinic: {
+    src: `${BASE_PATH}/images/aura-treatment-room-2.png`,
+    alt: "Aura Dental Studio treatment room",
+  },
 } as const;
 
 export const SITE = {

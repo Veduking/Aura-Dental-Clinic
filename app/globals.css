@@ -21,7 +21,7 @@ body {
   @apply text-ink font-body antialiased;
   overflow-x: hidden;
   background-color: #ECFDF5;
-  background-image: linear-gradient(rgba(236, 253, 245, 0.78), rgba(236, 253, 245, 0.78)), url("/images/tooth-pattern-blue.jpg");
+  background-image: linear-gradient(rgba(236, 253, 245, 0.78), rgba(236, 253, 245, 0.78)),url("/Aura-Dental-Clinic/images/tooth-pattern-blue.jpg");
   background-size: auto, 300px 300px;
 }
 
